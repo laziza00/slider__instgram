@@ -12,4 +12,125 @@ body {
   display: flex;
   flex-direction: column;
 }
+/* ============instagram slider section box========== */
 
+
+.box__section {
+  padding: 70px 0;
+  /* background-color: rgba(0, 0, 0, 0.801); */
+  margin: 50px 0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.box {
+  position: relative;
+  width: 100%; 
+  overflow: hidden; 
+}
+.box__item {
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  margin: 0 20px;
+  background-color: rgb(247, 139, 139);
+  transition: all 0.3s ease;
+}
+.box__box {
+  width: 250px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box__number {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.btn {
+  background-color: rgb(247, 139, 139);
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 25px;
+  font-weight: 600;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+.active {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+.prev {
+  position: absolute;
+  top: 400px;
+  left: 45%;
+}
+.next {
+  position: absolute;
+  top: 400px;
+  right: 45%;
+}
+
+
+
+
+
+/* ===========game section=========== */
+
+.game__item {
+  background-color: rgb(95, 162, 216);
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+.game__item:hover {
+  background-color: rgba(0, 0, 0, 0.452);
+}
+.game__item:hover .game__box-item i{
+  opacity: 1;
+}
+.game__box {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+.game__box-item {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+.game__box-item i {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.btnactive {
+  background-color: rgb(148, 211, 46);
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
