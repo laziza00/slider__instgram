@@ -108,6 +108,3 @@ function workSlide() {
 workSlide()
 
 itemsList[4].classList.add('active');
-
-
-
